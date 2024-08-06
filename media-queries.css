@@ -1,0 +1,60 @@
+/* 
+Typical Device breakpoints
+
+Extra pequenas ( smartwatch) : pode colocar o minimo que quiser, por exemplo 114px;
+Pequenas telas ( celular): max-width (máximo de largura) 600px;
+Telas médias ( tablet): min-width 600px e max-width 768px;
+Telas grandes ( laptop/desktops): min-width 768px e max-width 1200px;
+Telas extra grandes ( tvs/ desktops): min-width 1200px;
+
+*/
+
+/* Pequenas telas */
+@media screen and (max-width: 600px) {
+
+    /* CSS */
+
+    body {
+        background-color: lightsalmon;
+    }
+}
+
+
+/* Tela media */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+
+    /* CSS */
+
+    body {
+        background-color: lightgreen;
+    }
+}
+
+
+
+/* Telas grandes */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    /* CSS */
+
+    body {
+        background-color: blueviolet;
+    }
+}
+
+/* Telas extra grandes */
+@media screen and (min-width: 1200px) and(max-width: 1500px) {
+
+    /* CSS */
+
+    body {
+        background-color: darkgoldenrod;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    body {
+        background-color: brown;
+    }
+
+}

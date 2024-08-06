@@ -1,0 +1,66 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+/* FAZ ESSA PARTE PARA TIRAR TODO O ESTILO QUE A PÁGINA CRIA AUTOMATICAMENTE PARA PODER APLICAR OS NOVOS TRIBUTOS ESCOLHIDOS DO CSS */
+
+
+/* QUANDO USA PARA TELAS RESPONSIVAS, SÓ APLICAR UM WIDHT DE 100% E NÃO NECESSITA DO HEIGHT PQ O SISTEMA VAI DAR UMA ALTURA AUTOMATICAMENTE */
+body {
+    font-family: "Baloo 2", sans-serif;
+    padding: 20px;
+    width: 100%;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+
+    font-size: 24px;
+    color: #2C3E50;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 20PX;
+    color: #2C3E50;
+}
+
+/* QUANDO USA PARA TELAS RESPONSIVAS, SÓ APLICAR UM WIDHT DE 100% E NÃO NECESSITA DO HEIGHT PQ O SISTEMA VAI DAR UMA ALTURA AUTOMATICAMENTE */
+button {
+    padding: 16px;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    background-color: #F0908B;
+    border-radius: 100px;
+    border-style: none;
+    font-weight: bold;
+    margin-top: 16px;
+    font-family: "Baloo 2", sans-serif;
+
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+}

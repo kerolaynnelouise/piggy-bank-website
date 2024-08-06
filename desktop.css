@@ -1,0 +1,40 @@
+@media screen and (min-width: 1200px) {
+
+body{
+
+    padding: 80px;
+
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+h1{
+    font-size: 48px;
+
+}
+
+p{
+    font-size: 32px;
+    color: #2C3E50;
+    
+}
+
+
+/* COLOCA O MAX WIDHT POIS É PARA O BOTÃO NÃO PEGAR A TELA TODA E SIM UMA TRAVA PARA ELE NÃO PASSAR DAQUELE TAMANHO */
+button{
+    font-size: 24px;
+    max-width: 500px;
+}
+
+}
+    
